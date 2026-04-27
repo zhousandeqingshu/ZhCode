@@ -115,3 +115,11 @@ InSeC consists of three main modules:
 git clone https://github.com/zhousandeqingshu/ZhCode.git
 cd ZhCode
 pip install -r requirements.txt
+
+### Dataset Preparation
+
+The model expects G.729 encoded speech in PCM format.Use the dataset from Lin et al. (2018) containing:
+41 hours of Chinese speech
+72 hours of English speech
+Generate cover/stego samples with CNV, PSR, or JPS embedding at desired rates (10%–100%).Frame length can be set from 0.1 s to 2 s (default: 10 s for training).
+

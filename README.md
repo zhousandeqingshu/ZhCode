@@ -116,7 +116,15 @@ git clone https://github.com/zhousandeqingshu/ZhCode.git
 cd ZhCode
 pip install -r requirements.txt
 ```
+### Training
+```bash
+python train.py --stego_type JPS --embed_rate 30 --frame_len 10 --epochs 50
+```
 
+### Testing
+```bash
+python test.py --model_path checkpoints/best_model.pth --data_path ./test_data
+```
 
 ---
 ## 🗂️ Dataset Preparation

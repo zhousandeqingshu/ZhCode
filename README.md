@@ -119,7 +119,7 @@ pip install -r requirements.txt
 
 
 ---
-## Dataset Preparation
+## 🗂️ Dataset Preparation
 
 The model expects G.729 encoded speech in PCM format.
 
@@ -132,19 +132,19 @@ Generate cover/stego samples with CNV, PSR, or JPS embedding at desired rates (1
 
 Frame length can be set from 0.1 s to 2 s (default: 10 s for training).
 
-## Training
+## 🚀 Training
 
 python train.py --stego_type JPS --embed_rate 30 --frame_len 10 --epochs 50
 
 
-## Testing
+## 🧪 Testing
 
 python test.py --model_path checkpoints/best_model.pth --data_path ./test_data
 
 
 
 --- 
-## Citation
+## 📄 Citation
 If you find our work useful for your research, please cite:
 ``` bash
 @article{Zhang2024InSeC,
@@ -161,20 +161,20 @@ If you find our work useful for your research, please cite:
 ```
 
 --- 
-## License
+## 📜 License
 This project is licensed under the MIT License – see the LICENSE file for details.
 
 
 --- 
-## Contributing
+## 🤝 Contributing
 Issues and pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
 ---
-## Contact
+## 📧 Contact
 -First author: Jie Yang – yangjie_work126@126.com
 -Code repository: https://github.com/zhousandeqingshu/ZhCode
 
 --- 
-## Star History
+## ⭐ Star History
 If you find InSeC helpful, please give us a ⭐ on GitHub – it helps others discover the project!
 https://api.star-history.com/svg?repos=zhousandeqingshu/ZhCode&type=Date

@@ -171,8 +171,8 @@ Issues and pull requests are welcome! For major changes, please open an issue fi
 
 ---
 ## 📧 Contact
--First author: Jie Yang – yangjie_work126@126.com
--Code repository: https://github.com/zhousandeqingshu/ZhCode
+- First author: Jie Yang – yangjie_work126@126.com
+- Code repository: https://github.com/zhousandeqingshu/ZhCode
 
 --- 
 ## ⭐ Star History

@@ -176,5 +176,5 @@ Issues and pull requests are welcome! For major changes, please open an issue fi
 
 --- 
 ## ⭐ Star History
-If you find InSeC helpful, please give us a ⭐ on GitHub – it helps others discover the project!
+If InSeC has helped your research, a ⭐ on GitHub would be an enormous encouragement to us and helps more people find this work！
 https://api.star-history.com/svg?repos=zhousandeqingshu/ZhCode&type=Date

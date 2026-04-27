@@ -132,3 +132,49 @@ Generate cover/stego samples with CNV, PSR, or JPS embedding at desired rates (1
 
 Frame length can be set from 0.1 s to 2 s (default: 10 s for training).
 
+## Training
+
+python train.py --stego_type JPS --embed_rate 30 --frame_len 10 --epochs 50
+
+
+## Testing
+
+python test.py --model_path checkpoints/best_model.pth --data_path ./test_data
+
+
+
+--- 
+## Citation
+If you find our work useful for your research, please cite:
+``` bash
+@article{Zhang2024InSeC,
+  author    = {Hao Zhang and Jie Yang and Feipeng Gao and Jiacheng Yuan},
+  title     = {InSeC: Steganalysis Model Based on Inter-Codeword Sensitivity Caption for Compressed Speech Streams},
+  journal   = {IEEE Access},
+  volume    = {12},
+  pages     = {192252--192262},
+  year      = {2024},
+  doi       = {10.1109/ACCESS.2024.3519094},
+  note      = {Accepted 9 December 2024, published 17 December 2024}
+}
+
+```
+
+--- 
+## License
+This project is licensed under the MIT License – see the LICENSE file for details.
+
+
+--- 
+## Contributing
+Issues and pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+## Contact
+-First author: Jie Yang – yangjie_work126@126.com
+-Code repository: https://github.com/zhousandeqingshu/ZhCode
+
+--- 
+## Star History
+If you find InSeC helpful, please give us a ⭐ on GitHub – it helps others discover the project!
+https://api.star-history.com/svg?repos=zhousandeqingshu/ZhCode&type=Date

@@ -52,7 +52,7 @@ InSeC consists of three main modules:
    - Two fully connected layers with dropout (p=0.5) and sigmoid activation.  
    - Outputs the probability of hidden information.
 
-![InSeC Architecture](https://raw.githubusercontent.com/zhousandeqingshu/ZhCode/main/figures/architecture.png)  
+![InSeC Architecture](https://github.com/zhousandeqingshu/ZhCode/blob/main/InSeC.png)  
 *Figure 2 from the paper – the full network structure.*
 
 ---
